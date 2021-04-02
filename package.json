@@ -1,0 +1,36 @@
+{
+  "name": "horcrux",
+  "version": "1.0.0",
+  "description": "Automatic JavaScript Parallelism for Resource-Efficient Web Computation",
+  "main": "index.js",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "chrome-launcher": "^0.13.4",
+    "chrome-remote-interface": "^0.28.2",
+    "commander": "^6.1.0",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaghayeghMrdn/horcrux-osdi21.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Web",
+    "Worker",
+    "Node.js"
+  ],
+  "author": "Shaghayegh Mardani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaghayeghMrdn/horcrux-osdi21/issues"
+  },
+  "homepage": "https://github.com/ShaghayeghMrdn/horcrux-osdi21#readme"
+}
