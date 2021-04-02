@@ -6,7 +6,7 @@ The username and password of this VM are *test* and *test*.
 
 ## Getting Started:
 
-All Horcrux source code are placed under *~/Projects/Horcrux*.
+All Horcrux source code are placed under *~/Projects/horcrux-osdi21*.
 
 Horcrux uses [Mahimahi](http://mahimahi.mit.edu/), a lightweight tool for recording and replaying HTTP traffic.
 The version of [Mahimahi](https://github.com/ShaghayeghMrdn/mahimahi/tree/ubuntu_16_04) used in our experiments is already cloned and installed on this VM under *~/Projects/mahimahi*.
@@ -21,17 +21,17 @@ All mahimahi recorded pages used in our experiments are placed in 3 directories 
 
 3. __all-pages__: the complete set of pages considered in our experiments.
 
-\
+
 ## Startup:
 
-Navigate to Horcrux root directory: `cd ~/Projects/Horcrux`
+Navigate to Horcrux root directory: `cd ~/Projects/horcrux-osdi21`
 
 Each time VM is started, run the `sudo ./startup.sh`.
 If the startup script is not executed as the first step, you might see an error as below when Horcrux is used:
 
 > Died on std::runtime_error: mm-webreplay: Please run "sudo sysctl -w net.ipv4.ip_forward=1" to enable IP forwarding.
 
-\
+
 ## Kick-the-tires:
 
 The main script to run the server-side operations (as described in section 4.1 of paper) is *rewrite_pages.py*.
@@ -65,5 +65,5 @@ This unsupported flag is not set by us, instead the chrome-launcher sets it by d
 #### Note 2:
 Both *rewrite_pages.py* and *load_a_page.sh* scripts are supposed to be executed from the root directory, as they are dependent of other sub-modules and scripts placed next to them.
 
-\
+
 ## More Examples:

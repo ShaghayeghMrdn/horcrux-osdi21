@@ -1,3 +1,4 @@
 # Directories
-node_modules/*
+node_modules*
+horcrux-instrumentation-rewriter*
 output/*
