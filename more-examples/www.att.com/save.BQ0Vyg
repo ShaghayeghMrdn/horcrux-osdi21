@@ -1,22 +1,0 @@
-
-35.192.39.196»"®
-POST /att/hash-check HTTP/1.1
-Hostrl.quantummetric.com
-
-Connection
-keep-alive
-Content-Length14
-Originhttps://www.att.com‰
-
-User-Agent{Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36 
-Content-Typeapplication/json
-Accept*/*$
-Accept-Encodinggzip, deflate, br-
-Accept-Languageen-GB,en-US;q=0.9,en;q=0.8["1393609540"]*ê
-HTTP/1.1 200 OK(
- Access-Control-Allow-Credentialstrue2
-Access-Control-Allow-Originhttps://www.att.com
-Content-Length2)
-Content-Typetext/plain; charset=utf-8%
-DateWed, 26 Aug 2020 17:15:24 GMT
-VaryOrigin[]
