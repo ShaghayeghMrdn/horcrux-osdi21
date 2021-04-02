@@ -36,12 +36,16 @@ def light_instrument(input_dir: str, output_dir: str):
     log_dir: str = join(output_dir, 'logs-light')
     step_one_cmd: str = "python2 readHTTPResponse.py" \
                     f" {input_dir} {output_dir} cg {log_dir}"
-    run_command(step_one_cmd)
-    generated_dir: str = join(output_dir, page_url)
-    if num_of_files_in(input_dir) == num_of_files_in(generated_dir):
-        os.rename(generated_dir, join(output_dir, 'light'))
-    else:
-        raise RuntimeError(f"Step one failed: mismatched number of protobufs")
+    count = 0
+    while count < 3:
+        run_command(step_one_cmd)
+        generated_dir: str = join(output_dir, page_url)
+        if num_of_files_in(input_dir) == num_of_files_in(generated_dir):
+            os.rename(generated_dir, join(output_dir, 'light'))
+            return
+        else:
+            count += 1
+    raise RuntimeError(f"Step one failed: mismatched number of protobufs")
 
 
 def timing_instrument(input_dir: str, output_dir: str):
@@ -50,12 +54,16 @@ def timing_instrument(input_dir: str, output_dir: str):
     step_two_cmd: str = "python2 readHTTPResponse.py" \
                     f" --cgInfo {join(output_dir, 'roots-nc.json')}" \
                     f" {input_dir} {output_dir} cg {log_dir}"
-    run_command(step_two_cmd)
-    generated_dir: str = join(output_dir, page_url)
-    if num_of_files_in(input_dir) == num_of_files_in(generated_dir):
-        os.rename(generated_dir, join(output_dir, 'timing'))
-    else:
-        raise RuntimeError(f"Step two failed: mismatched number of protobufs")
+    count = 0
+    while count < 3:
+        run_command(step_two_cmd)
+        generated_dir: str = join(output_dir, page_url)
+        if num_of_files_in(input_dir) == num_of_files_in(generated_dir):
+            os.rename(generated_dir, join(output_dir, 'timing'))
+            return
+        else:
+            count += 1
+    raise RuntimeError(f"Step two failed: mismatched number of protobufs")
 
 
 def heavy_instrument(input_dir: str, output_dir: str):
@@ -64,12 +72,16 @@ def heavy_instrument(input_dir: str, output_dir: str):
     step_three_cmd: str = "python2 readHTTPResponse.py" \
                     f" --cgInfo {join(output_dir, 'roots-nc.json')}" \
                     f" {input_dir} {output_dir} record {log_dir}"
-    run_command(step_three_cmd)
-    generated_dir: str = join(output_dir, page_url)
-    if num_of_files_in(input_dir) == num_of_files_in(generated_dir):
-        os.rename(generated_dir, join(output_dir, 'heavy'))
-    else:
-        raise RuntimeError(f"Step three failed: mismatched number of protobufs")
+    count = 0
+    while count < 3:
+        run_command(step_three_cmd)
+        generated_dir: str = join(output_dir, page_url)
+        if num_of_files_in(input_dir) == num_of_files_in(generated_dir):
+            os.rename(generated_dir, join(output_dir, 'heavy'))
+            return
+        else:
+            count += 1
+    raise RuntimeError(f"Step three failed: mismatched number of protobufs")
 
 
 def rewrite_instrument(input_dir: str, output_dir: str):
