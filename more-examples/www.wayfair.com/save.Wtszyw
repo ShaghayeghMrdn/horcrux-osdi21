@@ -1,0 +1,36 @@
+
+151.101.185.208»"Å
+&POST /px/xhr/api/v2/collector HTTP/1.1
+Hostprx.wayfair.com
+
+Connection
+keep-alive
+Content-Length565!
+Originhttps://www.wayfair.com‰
+
+User-Agent{Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.361
+Content-type!application/x-www-form-urlencoded
+Accept*/*#
+Refererhttps://www.wayfair.com/$
+Accept-Encodinggzip, deflate, br-
+Accept-Languageen-GB,en-US;q=0.9,en;q=0.8­
+Cookie¢CSNUtId=23e17d3a-5f46-ba18-70da-12e848e33502; ExCSNUtId=23e17d3a-5f46-ba18-70da-12e848e33502; vid=23e17d3a-5f46-ba18-70da-12e848e33502; SFSID=b8ff721680ff7b26c98f0751bfc35003; canary=0; WFDC=DSM; CSNBrief=SLoc%3Ddsm1; serverUAInfo=%7B%22browser%22%3A%22Google%20Chrome%22%2C%22browserVersion%22%3A73.036839%2C%22OS%22%3A%22AndroidOS%22%2C%22OSVersion%22%3A8%2C%22isMobile%22%3Atrue%2C%22isTablet%22%3Afalse%2C%22isTouch%22%3Atrue%7D; CSN=g_countryCode%3DUSA%26g_zip%3D67346; CSNPersist=page_of_visit%3D1; AppInterstitial=visit_date_1%3D2020-08-26µpayload=aUkQRhAIEGJqABAeEFYQCEkQYmoLBBAIEFpGRkJBCB0dRUVFHEVTS1RTW0AcUV1fHRAeEGJqBAEQCBB+W1xHShJKCgRtBAYQHhBiagMLAxAIAh4QYmoKBwEQCEZAR1ceEGJqCgcCEAgCHhBiagoHAxAIAAsHAB4QYmoDAgIKEAgBBAICHhBiagMCBwcQCAMHCwoGBQIECgMLCgUeEGJqAwIHBBAIAwcLCgYFAgQKAwsLBx4QYmoDAgEKEAgQUwUHBAIECwIfVwVWAR8DA1dTHwsFVFEfUFYEUVFQVgYBBgUFEB4QYmoBBQMQCFRTXkFXT09v&appId=PX3Vk96I6i&tag=v6.0.6&uuid=a7560690-e7d3-11ea-97fc-bd6ccbd43477&ft=177&seq=0&en=NTA&pc=2155113790090180&pxhd=92b1fff83e0fb70c0ce90d4483463d4db59523a874ae122b232fdca586f8af13:a678c5f1-e7d3-11ea-9b11-f3b348f2dee2&p1=0&p2=0&rsc=1*±
+HTTP/1.1 200 OK
+
+Connection
+keep-alive
+Content-Length298/
+Content-Typeapplication/json; charset=utf-8(
+ Access-Control-Allow-Credentialstrue>
+Access-Control-Allow-MethodsGET,HEAD,PUT,PATCH,POST,DELETE6
+Access-Control-Allow-Originhttps://www.wayfair.com
+Timing-Allow-Origin*
+Via
+1.1 google
+Accept-Rangesbytes%
+DateWed, 26 Aug 2020 19:38:02 GMT
+Via1.1 varnish!
+X-Served-Bycache-mdw17350-MDW
+X-CacheMISS
+X-Cache-Hits0&
+X-TimerS1598470682.009121,VS0,VE46ª{"do":["sid|a75d3280-e7d3-11ea-9db7-591907795c63","cls|59598448227365756915","sts|1598470682047","wcs|bt3bk6mfd6v3i4b6dql0","drc|9884","cs|156dbb8a40103728b46f52bd15038f82ca828aef41daa7f3c2bb05f81b1c0768","vid|a678c5f1-e7d3-11ea-9b11-f3b348f2dee2|31536000|false","sff|cc|60|U2FtZVNpdGU9TGF4Ow=="]}

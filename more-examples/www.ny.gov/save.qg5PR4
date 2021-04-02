@@ -1,0 +1,28 @@
+
+35.190.88.7»"ç
+POST / HTTP/1.1
+Hostsessions.bugsnag.com
+
+Connection
+keep-alive
+Content-Length436
+Bugsnag-Payload-Version1
+Originhttps://www.ny.gov+
+Bugsnag-Sent-At2020-08-26T18:55:49.814Z3
+Bugsnag-Api-Key 6dd816780e7867fc45410958920a5c01‰
+
+User-Agent{Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36 
+Content-Typeapplication/json
+Accept*/*
+Refererhttps://www.ny.gov/$
+Accept-Encodinggzip, deflate, br-
+Accept-Languageen-GB,en-US;q=0.9,en;q=0.8´{"notifier":{"name":"Bugsnag JavaScript","version":"6.4.3","url":"https://github.com/bugsnag/bugsnag-js"},"device":{"locale":"en-GB","userAgent":"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36"},"app":{"releaseStage":"production","version":"2020-08-14_8360738"},"sessions":[{"id":"ckebqny2b00003f5k1uzx6ujh","startedAt":"2020-08-26T18:55:49.811Z","user":{}}]}*’
+HTTP/1.1 202 Accepted 
+Access-Control-Allow-Origin*<
+Bugsnag-Session-Uuid$3e5d9de7-06ab-49fc-bb00-c9caad2eb49c 
+Content-Typeapplication/json%
+DateWed, 26 Aug 2020 18:55:49 GMT
+Content-Length21
+Via
+1.1 google
+Alt-Svcclear{"status":"accepted"}

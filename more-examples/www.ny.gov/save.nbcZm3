@@ -1,0 +1,28 @@
+
+54.85.207.42»"¾
+<POST /v2/decide?account_id=NYITS&site_id=nyits_prod HTTP/1.1-
+Host%us-east-1-decisionapi.lift.acquia.com
+
+Connection
+keep-alive
+Content-Length467
+Originhttps://www.ny.gov‰
+
+User-Agent{Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+Content-Type
+text/plain
+Accept*/*
+Refererhttps://www.ny.gov/$
+Accept-Encodinggzip, deflate, br-
+Accept-Languageen-GB,en-US;q=0.9,en;q=0.8Ó{"captures":[{"event_name":"Content View","event_source":"Web","content_title":"The Official Website of New York State","url":"https://www.ny.gov/","referral_url":"","user_agent":"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36","client_timezone":"240","engagement_score":1,"authEndpoint":"https://us-east-1-oauth2.lift.acquia.com"}],"identity_source":"tracking","url":"https://www.ny.gov/"}*¬
+HTTP/1.1 200 OK(
+ Access-Control-Allow-Credentialstrue1
+Access-Control-Allow-Originhttps://www.ny.govC
+Access-Control-Expose-Headers"X-Server-Authorization-HMAC-SHA256 
+Content-Typeapplication/json%
+DateWed, 26 Aug 2020 18:55:50 GMT
+VaryOrigin
+Content-Length109
+
+Connection
+keep-alivem{"slots":{},"decisions":{},"identity":{"tc_ptid":"3KFW9qkkfyUY06Tvc0exNo","tc_ttid":"9h0jLkYp5KmdT7Gb2H45p"}}

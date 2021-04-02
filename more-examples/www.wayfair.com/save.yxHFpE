@@ -1,0 +1,42 @@
+
+151.101.185.253»"Ò
+9POST /b.php?_txid=I%2BF9Ol9Guhhw2hLoSOM1Ag%3D%3D HTTP/1.1
+Hostt.wayfair.com
+
+Connection
+keep-alive
+Content-Length3758
+Accept.application/json, text/javascript, */*; q=0.01!
+Originhttps://www.wayfair.com‰
+
+User-Agent{Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36@
+Content-Type0application/x-www-form-urlencoded; charset=UTF-8#
+Refererhttps://www.wayfair.com/$
+Accept-Encodinggzip, deflate, br-
+Accept-Languageen-GB,en-US;q=0.9,en;q=0.8­
+Cookie¢CSNUtId=23e17d3a-5f46-ba18-70da-12e848e33502; ExCSNUtId=23e17d3a-5f46-ba18-70da-12e848e33502; vid=23e17d3a-5f46-ba18-70da-12e848e33502; SFSID=b8ff721680ff7b26c98f0751bfc35003; canary=0; WFDC=DSM; CSNBrief=SLoc%3Ddsm1; serverUAInfo=%7B%22browser%22%3A%22Google%20Chrome%22%2C%22browserVersion%22%3A73.036839%2C%22OS%22%3A%22AndroidOS%22%2C%22OSVersion%22%3A8%2C%22isMobile%22%3Atrue%2C%22isTablet%22%3Afalse%2C%22isTouch%22%3Atrue%7D; CSN=g_countryCode%3DUSA%26g_zip%3D67346; CSNPersist=page_of_visit%3D1; AppInterstitial=visit_date_1%3D2020-08-26÷events%5B0%5D%5BeventType%5D=SiteImpression&events%5B0%5D%5Bcontent%5D=HP_SHOPDEPT_&events%5B0%5D%5BimpressionTimestamp%5D=1598470683232&events%5B0%5D%5BreferringTransactionId%5D=I%2BF9Ol9Guhhw2hLoSOM1Ag%3D%3D&events%5B0%5D%5BtransactionId%5D=I%2BF9Ol9Guhhw2hLoSOM1Ag%3D%3D&events%5B0%5D%5BpageId%5D=I%2BF9Ol9Guhhw2hLoSOM1Ag%3D%3D&_csrf_token=137BFF02E15905F3E9A2D9A172914AF4*ÿ
+HTTP/1.1 200 OK
+
+Connection
+keep-alive
+Content-Length2
+Servernginx 
+Content-Typeapplication/json(
+ Access-Control-Allow-Credentialstrue6
+Access-Control-Allow-Originhttps://www.wayfair.com
+Edge-Controlno-store
+Pragmano-cache
+	Server_iddsm1.80.115
+Lb_Id
+dsm1.66.35 
+TXIDI+CISl9GuhtqbUpQBgPRAg==
+wfr-cdn-validYesCdn 
+True-Client-Ip141.213.172.11
+Accept-Rangesbytes%
+DateWed, 26 Aug 2020 19:38:03 GMT
+Via1.1 varnish!
+X-Served-Bycache-mdw17340-MDW
+X-CacheMISS
+X-Cache-Hits0&
+X-TimerS1598470683.240022,VS0,VE16(
+Strict-Transport-Securitymax-age=300{}

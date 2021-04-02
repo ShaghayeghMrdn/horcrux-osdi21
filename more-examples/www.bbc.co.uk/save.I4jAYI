@@ -1,0 +1,25 @@
+
+34.197.56.224ª"ÿ
+POST /launchConfigs HTTP/1.1#
+Hostsurvey.effectivemeasure.net
+
+Connection
+keep-alive
+Content-Length143
+Originhttps://www.bbc.comâ
+
+User-Agent{Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36 
+Content-typeapplication/json
+Accept*/*
+Refererhttps://www.bbc.com/$
+Accept-Encodinggzip, deflate, br-
+Accept-Languageen-GB,en-US;q=0.9,en;q=0.8è{"url":"https://www.bbc.com/","lang":null,"visitorId":"39617ada-7db7-4cdf-9137-148b7a3a5e40","lastCompleted":null,"mobile":true,"country":"US"}*◊
+HTTP/1.1 200 OK%
+DateWed, 26 Aug 2020 17:44:46 GMT/
+Content-Typeapplication/json; charset=utf-8
+Content-Length2
+
+Connection
+keep-alive
+X-Powered-ByExpress 
+Access-Control-Allow-Origin*[]
