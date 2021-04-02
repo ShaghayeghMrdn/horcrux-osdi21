@@ -15,7 +15,7 @@ Horcrux rewriter takes a set of recorded mahimahi directories as input and retur
 
 All mahimahi recorded pages used in our experiments are placed in 3 directories inside root directory:
 
-1. __kick-the-tires__: only one recorded mahimahi directory (`www.cbsnews.com`) as a "Hello world" type of example.
+1. __kick-the-tires__: only one recorded mahimahi directory (`www.netflix.com`) as a "Hello world" type of example.
 
 2. __more-examples__: a set of selected pages to demonstrate Horcrux functionality without spending several hours that it would take to run Horcrux on the whole corpus.
 
@@ -39,22 +39,28 @@ The main script to run the server-side operations (as described in section 4.1 o
 *rewrite_pages.py* takes two input arguments: 1) an input directory containing the recorded mahimahi dirs (e.g., one of the 3 directories mentioned above). 2) an output directory which will contain rewritten mahimahi dirs.
 
 For example:
+```
+$ python3.9 rewrite_pages.py kick-the-tires output
+```
+generates an *output* directory containing a rewritten mahimahi directory named `www.netflix.com`. The top-level HTML includes Horcrux dynamic scheduler code. Also, each frame is rewritten to include the function signatures and a call to Horcrux scheduler. Please refer to section 4.2 of the paper for more details.
 
-> python3.9 rewrite_pages.py kick-the-tires output
-
-generates an *output* directory containing a rewritten mahimahi directory named `www.cbsnews.com`. The top-level HTML includes Horcrux dynamic scheduler code. Also, each frame is rewritten to include the function signatures and a call to Horcrux scheduler. Please refer to section 4.2 of the paper for more details.
+This step might take up to 5 minutes.
 
 Next, you can use *load_a_page.sh* script  to load a page (i.e., reply its mahimahi directory) in chrome and see the results visually.
 
 To load the rewritten page:
-> ./load_a_page.sh output/www.cbsnews.com
+```
+$ ./load_a_page.sh output/www.netflix.com
+```
 
 To load the original (recorded) version of the page:
-> ./load_a_page.sh kick-the-tires/www.cbsnews.com
+```
+$ ./load_a_page.sh kick-the-tires/www.netflix.com
+```
 
 The script starts a chrome instance, loads the page, and keep the chrome alive until you close it manually. It also prints the page load time in the standard output. If you would like the chrome instance to be killed after the page is loaded, you can remove *-a* option from the last line of the script.
 
-By comparing the page load times of the recorded page and the rewritten one, you can see that Horcrux improves the page load time among other metrics.
+By comparing the page load times of the recorded page and the rewritten one, you can see that Horcrux improves the page load time among other metrics. However, note that these numbers might be different than our experimental results, since we ran our experiments on actual mobile devices and not desktop VMs.
 
 #### Note 1:
 Once a page is loaded in chrome, it is expected to see the following message:
@@ -67,3 +73,23 @@ Both *rewrite_pages.py* and *load_a_page.sh* scripts are supposed to be executed
 
 
 ## More Examples:
+
+Similarly you can use *rewrite_pages.py* to generate rewritten pages for a bigger set of pages:
+```
+$ python3.9 rewrite_pages.py more-examples output
+```
+This step might take up to 20 minutes.
+
+or
+```
+$ python3.9 rewrite_pages.py all-pages output
+```
+**Note: this step might take more than 12 hours!**
+
+Finally, to load *all* rewritten pages back-to-back, in a headless chrome instance, you can use *load_headless.sh* script:
+```
+./load_headless.sh output
+```
+
+The first argument to *load_headless.sh* is the parent directory containing the rewritten mahimahi directories.
+For each page, PLT in printed in the standard output.
